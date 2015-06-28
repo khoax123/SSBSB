@@ -1,0 +1,264 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khoax123.ssbsb.Rand">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/butt1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <Button
+                    android:id="@+id/joker"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Jokers" />
+
+                <Button
+                    android:id="@+id/backslash"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/joker"
+                    android:layout_weight="1"
+                    android:text="Back Slash" />
+
+                <Button
+                    android:id="@+id/fffanfare"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/backslash"
+                    android:layout_weight="1"
+                    android:text="FFV Victory Fanfare" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt1">
+
+                <Button
+                    android:id="@+id/get_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/fffanfare"
+                    android:layout_weight="1"
+                    android:text="Zelda - Get Item" />
+
+                <Button
+                    android:id="@+id/m_death"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/get_item"
+                    android:layout_weight="1"
+                    android:text="Mario Death" />
+
+                <Button
+                    android:id="@+id/wasnt_ready"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/m_death"
+                    android:layout_weight="1"
+                    android:text="She Wasnt Ready" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt2">
+
+                <Button
+                    android:id="@+id/ricked_rolled"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/wasnt_ready"
+                    android:layout_weight="1"
+                    android:text="Rick Roll'd" />
+
+                <Button
+                    android:id="@+id/western_whistle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/ricked_rolled"
+                    android:layout_weight="1"
+                    android:text="Western Whistle" />
+
+                <Button
+                    android:id="@+id/dramatic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/western_whistle"
+                    android:layout_weight="1"
+                    android:text="Dramatic Sound" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/butt4"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt3">
+
+                <Button
+                    android:id="@+id/drums"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/dramatic"
+                    android:layout_weight="1"
+                    android:text="Drum Roll" />
+
+                <Button
+                    android:id="@+id/bell"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/drums"
+                    android:layout_weight="1"
+                    android:text="Hotel Bell" />
+
+
+                <Button
+                    android:id="@+id/do_we_win"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/goodbye"
+                    android:layout_weight="1"
+                    android:text="Wait... Do WE win?" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt4">
+
+                <Button
+                    android:id="@+id/finish_him"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Finish Him" />
+
+                <Button
+                    android:id="@+id/fatality"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Fatality" />
+
+
+                <Button
+                    android:id="@+id/toasty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Toasty!" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt6"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt5">
+
+                <Button
+                    android:id="@+id/let_them_fight"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Let Them Fight" />
+
+                <Button
+                    android:id="@+id/Ding"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Ding" />
+
+
+                <Button
+                    android:id="@+id/Buzzer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Buzzer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/butt6">
+
+                <Button
+                    android:id="@+id/illuminati"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Illuminati Confirmed!" />
+
+                <Button
+                    android:id="@+id/HAX"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="HAXX!" />
+
+
+                <Button
+                    android:id="@+id/over_9000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="OVER 9000!!" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/butt8"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/butt7">
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/stopper5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/butt8"
+                android:layout_weight="1"
+                android:text="Stop Sounds" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SSBSB</string>
+    <string name="title_activity_main">SoundBoard</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tabs">
+        <item>Epic</item>
+        <item>MLG</item>
+        <item>PW</item>
+        <item>UR</item>
+        <item>Rand</item>
+    </string-array>
+</resources>

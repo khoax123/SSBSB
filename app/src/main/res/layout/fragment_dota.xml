@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khoax123.ssbsb.Dota">
+
+    <LinearLayout
+        android:id="@+id/butt1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/FrtBlood"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="First Blood" />
+
+        <Button
+            android:id="@+id/doukill"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Double Kill" />
+
+        <Button
+            android:id="@+id/trikill"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Triple Kill" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/butt2"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/butt1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/kill_spree"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Killing Spree" />
+
+        <Button
+            android:id="@+id/dominating"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Dominating"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/mega_kill"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mega Kill" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/butt3"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/butt2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/unstoppable"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Unstoppable"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/wicked"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Wicked Sick" />
+
+        <Button
+            android:id="@+id/monster"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Monster Kill" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/butt4"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/butt3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/godlike"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Godlike" />
+
+        <Button
+            android:id="@+id/holy"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Holy Shit" />
+
+        <Button
+            android:id="@+id/headshot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Headshot" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/stopper4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butt4"
+        android:layout_weight="1"
+        android:text="Stop Sounds" />
+
+
+</RelativeLayout>

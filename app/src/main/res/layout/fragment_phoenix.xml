@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khoax123.ssbsb.Phoenix">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/phoetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="Phoenix Wright Sounds"
+            android:textColor="@color/primaryText" />
+
+        <LinearLayout
+            android:id="@+id/phoebutt"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/phoetext"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/phoe1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Objection!" />
+
+            <Button
+                android:id="@+id/phoe2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Hold It!" />
+
+            <Button
+                android:id="@+id/phoe3"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Take That!" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/athtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/apobutt"
+            android:paddingTop="8dp"
+            android:text="Athena Cykes Sounds"
+            android:textColor="@color/primaryText" />
+
+        <LinearLayout
+            android:id="@+id/athbutt"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/athtext"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ath1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Objection!" />
+
+            <Button
+                android:id="@+id/ath2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Hold It!" />
+
+            <Button
+                android:id="@+id/ath3"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Take That!" />
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/apotext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/phoebutt"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="Appollo Justice Sounds"
+            android:textColor="@color/primaryText" />
+
+        <LinearLayout
+            android:id="@+id/apobutt"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/apotext"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/apo1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Objection!" />
+
+            <Button
+                android:id="@+id/apo2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Hold It!" />
+
+            <Button
+                android:id="@+id/apo3"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Take That!" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/othertext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/athbutt"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="Other Objections"
+            android:textColor="@color/primaryText" />
+
+        <LinearLayout
+            android:id="@+id/otherbutt"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/othertext"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/milesobj"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Edgeworth"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/simobj"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Blackquill" />
+
+            <Button
+                android:id="@+id/klaobj"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Klavier" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/stopper3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/otherbutt"
+            android:layout_weight="1"
+            android:text="Stop Sounds" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

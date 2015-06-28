@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khoax123.ssbsb.Epic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Sad4Me"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/butt6"
+                android:layout_weight="1"
+                android:text="2SAD4ME" />
+            <Button
+                android:id="@+id/sax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Sad4Me"
+                android:layout_weight="1"
+                android:text="Epic Sax Music" />
+            <Button
+                android:id="@+id/guile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sax"
+                android:layout_weight="1"
+                android:text="Guile Theme" />
+            <Button
+                android:id="@+id/megaman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/guile"
+                android:layout_weight="1"
+                android:text="Megaman 2 - Dr Wily Theme" />
+
+            <Button
+                android:id="@+id/bennyhill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/megaman"
+                android:layout_weight="1"
+                android:text="Benny Hill Theme" />
+
+            <Button
+                android:id="@+id/sephiroth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bennyhill"
+                android:layout_weight="1"
+                android:text="One Winged Angel" />
+
+            <Button
+                android:id="@+id/swiggity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sephiroth"
+                android:layout_weight="1"
+                android:text="Swiggity Swag" />
+
+            <Button
+                android:id="@+id/lonely"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/swiggity"
+                android:layout_weight="1"
+                android:text="Lonely Souls" />
+
+            <Button
+                android:id="@+id/where_the_hood_at"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lonely"
+                android:layout_weight="1"
+                android:text="Where the Hood at" />
+
+            <Button
+                android:id="@+id/stopper1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/where_the_hood_at"
+                android:layout_weight="1"
+                android:text="Stop Sounds" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

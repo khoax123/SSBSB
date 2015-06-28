@@ -1,0 +1,237 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khoax123.ssbsb.MLG">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/butt1"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Sad4Me2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="2SAD4ME" />
+
+                <Button
+                    android:id="@+id/airHorn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Air Horn" />
+
+                <Button
+                    android:id="@+id/DamnSon"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Damn Son" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt2"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Darude"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Darude" />
+
+                <Button
+                    android:id="@+id/Mom_Camera"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="MOM Camera" />
+
+                <Button
+                    android:id="@+id/triple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Triple" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt3"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt2"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/trickshot"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Trickshot" />
+
+                <Button
+                    android:id="@+id/OMG"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="OMG" />
+
+                <Button
+                    android:id="@+id/Sanic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Sanic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt4"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt3"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/swamp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Shrek - Swamp" />
+
+                <Button
+                    android:id="@+id/Sike"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Sike" />
+
+                <Button
+                    android:id="@+id/skrillex"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Skrillex" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt5"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt4"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Smoke"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Smoke Weed" />
+
+                <Button
+                    android:id="@+id/skeleton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Skeleton" />
+
+                <Button
+                    android:id="@+id/nuke"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Nuke" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt6"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Whatcha"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Whatcha Say" />
+
+                <Button
+                    android:id="@+id/Wombo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Wombo Combo" />
+
+                <Button
+                    android:id="@+id/wow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Wow" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/butt7"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/butt6"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/hitmarker"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Hitmarker" />
+
+                <Button
+                    android:id="@+id/bruh"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Bruh" />
+
+                <Button
+                    android:id="@+id/no_scope"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Noscope" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/stopper2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/butt7"
+                android:layout_weight="1"
+                android:text="Stop Sounds" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
