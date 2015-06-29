@@ -198,6 +198,7 @@ public class Epic extends Fragment {
     }
 
     private boolean rickedRolled() {
+        /** This section activates the Troll where it will play rickrolled song when button is pressed depending the rate "x" **/
         float x = 1f;
         Log.d("Random", "" + x);
         if (x < 0.01) {
