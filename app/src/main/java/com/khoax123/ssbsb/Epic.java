@@ -177,6 +177,21 @@ public class Epic extends Fragment {
                 }}
         });
 
+        Button kirby_remix = (Button) getActivity().findViewById(R.id.kirby_remix);
+        kirby_remix.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                stopPlaying();
+                if(rickedRolled()) {
+                    mp = MediaPlayer.create(getActivity(), R.raw.ricked_rolled);
+                    mp.start();
+                }
+                else {
+                    mp = MediaPlayer.create(getActivity(), R.raw.kirby_remix);
+                    mp.start();
+                }}
+        });
+
 
 
         Button stop = (Button) getActivity().findViewById(R.id.stopper1);

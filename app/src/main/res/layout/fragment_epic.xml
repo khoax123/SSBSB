@@ -82,10 +82,18 @@
                 android:text="Where the Hood at" />
 
             <Button
-                android:id="@+id/stopper1"
+                android:id="@+id/kirby_remix"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/where_the_hood_at"
+                android:layout_weight="1"
+                android:text="Foxtrot Kirby remix" />
+
+            <Button
+                android:id="@+id/stopper1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kirby_remix"
                 android:layout_weight="1"
                 android:text="Stop Sounds" />
 
