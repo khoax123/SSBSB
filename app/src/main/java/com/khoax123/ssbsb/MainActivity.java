@@ -77,6 +77,11 @@ public class MainActivity extends ActionBarActivity {
 
                         break;
                     }
+                    case 5: {
+                        setTitle("Random 2");
+
+                        break;
+                    }
 
                 }
 
@@ -117,7 +122,7 @@ public class MainActivity extends ActionBarActivity {
 
     class MyPagerAdapter extends FragmentPagerAdapter {
 
-        int icons[] ={R.drawable.place_holder,R.drawable.place_holder,R.drawable.place_holder,R.drawable.place_holder,R.drawable.place_holder};
+        int icons[] ={R.drawable.place_holder,R.drawable.place_holder,R.drawable.place_holder,R.drawable.place_holder,R.drawable.place_holder,R.drawable.place_holder};
         String[] tabstext;
 
 
@@ -151,6 +156,11 @@ public class MainActivity extends ActionBarActivity {
                     fragment = new Rand();
                     break;
                 }
+
+                case 5: {
+                    fragment = new Rand2();
+                    break;
+                }
             }
 
 
@@ -159,7 +169,7 @@ public class MainActivity extends ActionBarActivity {
 
         @Override
         public int getCount() {
-            return 5;
+            return 6;
         }
 
         @Override

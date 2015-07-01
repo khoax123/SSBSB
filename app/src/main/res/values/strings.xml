@@ -8,10 +8,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string-array name="tabs">
-        <item>Epic</item>
-        <item>MLG</item>
+        <item>EP</item>
+        <item>MG</item>
         <item>PW</item>
         <item>UR</item>
-        <item>Rand</item>
+        <item>Rn</item>
+        <item>Rn2</item>
     </string-array>
 </resources>
