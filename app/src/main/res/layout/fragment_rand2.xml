@@ -21,10 +21,26 @@
                 android:text="Just Do IT!" />
 
             <Button
-                android:id="@+id/stopper1"
+                android:id="@+id/indestructible"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/just_do_it"
+                android:layout_below="@id/just_do_it"
+                android:layout_weight="1"
+                android:text="indestructible" />
+
+            <Button
+                android:id="@+id/tetris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/indestructible"
+                android:layout_weight="1"
+                android:text="Tetris" />
+
+            <Button
+                android:id="@+id/stopper6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tetris"
                 android:layout_weight="1"
                 android:text="Stop Sounds" />
 

@@ -47,7 +47,33 @@ public class Rand2 extends Fragment {
             }
         });
 
+        Button indestructible = (Button) getActivity().findViewById(R.id.indestructible);
+        indestructible.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                stopPlaying();
+                mp = MediaPlayer.create(getActivity(), R.raw.indestructible);
+                mp.start();
+            }
+        });
 
+        Button tetris = (Button) getActivity().findViewById(R.id.tetris);
+        tetris.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                stopPlaying();
+                mp = MediaPlayer.create(getActivity(), R.raw.tetris);
+                mp.start();
+            }
+        });
+
+        Button stop = (Button) getActivity().findViewById(R.id.stopper6);
+        stop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                stopPlaying();
+            }
+        });
     }
 
 
@@ -59,9 +85,5 @@ public class Rand2 extends Fragment {
         }
     }
 
-    @Override
-    public void onPause() {
-        super.onPause();
-        stopPlaying();
-    }
+
 }
