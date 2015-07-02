@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/where_the_hood_at"
                 android:layout_weight="1"
-                android:text="Foxtrot Kirby remix" />
+                android:text="Foxsky Kirby remix" />
 
             <Button
                 android:id="@+id/stopper1"
